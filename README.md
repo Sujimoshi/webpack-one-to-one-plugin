@@ -1,7 +1,7 @@
 # webpack-one-to-one-plugin
 Allow to make webpack build without bundling to one file. This plugin will emit all files in the dependency tree to `output.path` as separate files.
 
-Fork of [this plugin](https://github.com/DrewML/webpack-emit-all-plugin), but with some fixes and refactoring
+Fork of [this plugin](https://github.com/DrewML/webpack-emit-all-plugin), but with some fixes and refactoring, also support webpack 3 and webpack 4
 
 ## Install
 ```sh
