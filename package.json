@@ -1,0 +1,26 @@
+{
+  "name": "webpack-one-to-one-plugin",
+  "version": "1.0.0",
+  "description": "Allow to make webpack build without bundling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "webpack": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sujimoshi/webpack-one-to-one-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "@sujimoshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sujimoshi/webpack-one-to-one-plugin/issues"
+  },
+  "homepage": "https://github.com/Sujimoshi/webpack-one-to-one-plugin#readme"
+}
