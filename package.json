@@ -1,10 +1,12 @@
 {
   "name": "webpack-one-to-one-plugin",
-  "version": "2.0.5",
+  "version": "2.1.5",
   "description": "Allow to make webpack build without bundling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --env=node",
+    "lint": "eslint index.js __tests__",
+    "deploy": "npm run lint && npm run test && npm publish"
   },
   "peerDependencies": {
     "webpack": ">=3"
@@ -22,5 +24,19 @@
   "bugs": {
     "url": "https://github.com/Sujimoshi/webpack-one-to-one-plugin/issues"
   },
-  "homepage": "https://github.com/Sujimoshi/webpack-one-to-one-plugin#readme"
+  "homepage": "https://github.com/Sujimoshi/webpack-one-to-one-plugin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.11.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.28.2"
+  }
 }
